@@ -21,6 +21,9 @@ Suggesting safer alternatives if the password is compromised.
 
 <img width="1852" height="927" alt="image" src="https://github.com/user-attachments/assets/393683bf-7908-49c6-85a8-33c7371f56f4" />
 
+<img width="1862" height="927" alt="image" src="https://github.com/user-attachments/assets/5e6e18e6-29d3-4e7c-9290-0484246f5788" />
+
+
 
 🛠️ Technologies Used
 

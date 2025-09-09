@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Password Strength Meter</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="overlay">
+    <div class="container hidden" id="password-box">
+      <h2><span class="icon">🔐</span> Password Strength Meter</h2>
+      
+      <div class="input-section">
+        <input type="password" id="password" placeholder="Enter a strong password..." />
+        <div class="strength-wrapper">
+          <div id="strength-bar"></div>
+        </div>
+        <p id="feedback"></p>
+        <p id="availability"></p>
+      </div>
+
+      <!-- Suggestions (fade in/out inside box) -->
+      <div id="suggestions-box">
+        <h3>Suggestions</h3>
+        <div id="suggestions"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- zxcvbn library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/4.4.2/zxcvbn.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
